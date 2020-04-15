@@ -53,7 +53,7 @@ _É de suma importancia que você leia até o final antes de começar a fazer o 
 
 ## <a target='_blank'><img align="left" width=40px height=40px src='https://user-images.githubusercontent.com/54849358/79360914-f71d6f00-7f1a-11ea-8f09-f5da383dc4f7.png' /></a> P2P?
 
-O que é o P2P (Person to Person), consistem em um cash-out com uma quantia de saldo de uma conta X para um cash-in em da quantia de slado para a outra conta Y.
+O que é o P2P (Person to Person), consistem em um cash-out com uma quantia de saldo de uma conta X para um cash-in em da quantia de saldo para a outra conta Y.
 
 Aqui vai um simples fluxograma sobre o P2P.
 
@@ -80,7 +80,7 @@ Serão considerados extras:
 
 - Faça um fork deste projeto em sua conta no [Github](https://github.com/join) (crie um repositório privado). 
 - Em seguida, desenvolva o projeto. 
-- Por fim, adicione como membro do repositório [@vcteduardo](https://github.com/vcteduardo).
+- Por fim, adicione como membro do repositório [@vcteduardo](https://github.com/vcteduardo) [@luoldrigues](https://github.com/vcteduardo).
 
 <br> 
 
