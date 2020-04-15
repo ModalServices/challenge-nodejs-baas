@@ -80,7 +80,7 @@ Serão considerados extras:
 
 - Faça um fork deste projeto em sua conta no [Github](https://github.com/join) (crie um repositório privado). 
 - Em seguida, desenvolva o projeto. 
-- Por fim, adicione como membros do repositório [@vcteduardo](https://github.com/vcteduardo) & [@luoldrigues](https://github.com/vcteduardo).
+- Por fim, adicione como membros do repositório [@vcteduardo](https://github.com/vcteduardo) & [@luoldrigues](https://github.com/luoldrigues).
 
 <br> 
 
