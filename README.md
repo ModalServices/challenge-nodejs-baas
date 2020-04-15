@@ -49,6 +49,7 @@ _É de suma importancia que você leia até o final antes de começar a fazer o 
 
 - Com tudo feito, gere uma documentação no lugar que preferir, com todos os EndPoints do seus sistema, com Payload e response (Tanto de sucesso quanto de erro).
 
+<br>
 
 ## <a target='_blank'><img align="left" width=40px height=40px src='https://user-images.githubusercontent.com/54849358/79360914-f71d6f00-7f1a-11ea-8f09-f5da383dc4f7.png' /></a> P2P?
 
