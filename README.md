@@ -37,7 +37,8 @@ _É de suma importancia que você leia até o final antes de começar a fazer o 
 - Deve conter uma listagem de pessoas;
 - Deve conter um EndPoint de detalhes da pessoa;
 - Deve conter envio de algum documento referente a pessoa;
-- Deve conter registro de contas (Vinculadas a pessoa);
+- Deve conter registro de contas (vinculada a uma única pessoa);
+- Uma pessoa pode ter apenas um conta;
 - O sistema deve conter uma Autenticação por JWT (Será feito o login pela conta);
 - Deve conter uma listagem de contas;
 - Deve conter um EndPoint de detalhes da conta
