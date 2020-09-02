@@ -48,7 +48,7 @@ _É de suma importancia que você leia até o final antes de começar a fazer o 
 
 ### Regras de Documentação
 
-- Com tudo feito, gere uma documentação no lugar que preferir, com todos os EndPoints do seus sistema, com Payload e response (Tanto de sucesso quanto de erro).
+- Com tudo feito, gere uma documentação com [ApiDoc](https://apidocjs.com/), [Swagger](https://swagger.io/) ou [Apiary](https://apiary.io/), com todos os endpoints da sua api, com payload e response (Tanto de sucesso quanto de erro).
 
 <br>
 
@@ -72,10 +72,23 @@ Serão considerados extras:
 
 - Código bem documentado;
 - Documentação gerada pela API como ApiDoc;
-- Código todo em Ingles;
+- Código com funções e variáveis em ingles (PS: Documentação pode ser em portugues ou ingles);
 - Environment de variaveis, sem ser HardCode;
 
 <br>
+
+
+## Bônus
+Para ajudar você criamos essa sessão bônus, onde tem links para você que quer estudar algumas **tips and tricks** (não é requerido ver os links).
+
+  - [TDD com Jest | Diego Fernandes](https://www.youtube.com/watch?v=2G_mWfG0DZE)
+  - [Design Pattern | Filipe Deschamps](https://www.youtube.com/watch?v=arAz2Ff8s88)
+  - [NodeJS com Docker e Docker Compose| Diego Fernandes](https://www.youtube.com/watch?v=AVNADGzXrrQ)
+  - [Factory + Injeção de Dependência | Filipe Deschamps](https://www.youtube.com/watch?v=uyOJ2jjBtBs)
+
+
+<br>
+
 
 ## :rocket: Para a entrega do seu desafio.
 
