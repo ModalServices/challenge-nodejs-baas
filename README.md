@@ -83,7 +83,7 @@ Para ajudar você criamos essa sessão bônus, onde tem links para você que que
 
   - [TDD com Jest | Diego Fernandes](https://www.youtube.com/watch?v=2G_mWfG0DZE)
   - [Design Pattern | Filipe Deschamps](https://www.youtube.com/watch?v=arAz2Ff8s88)
-  - [NodeJS com Docker e Docker Compose| Diego Fernandes](https://www.youtube.com/watch?v=AVNADGzXrrQ)
+  - [NodeJS com Docker e Docker Compose | Diego Fernandes](https://www.youtube.com/watch?v=AVNADGzXrrQ)
   - [Factory + Injeção de Dependência | Filipe Deschamps](https://www.youtube.com/watch?v=uyOJ2jjBtBs)
 
 
