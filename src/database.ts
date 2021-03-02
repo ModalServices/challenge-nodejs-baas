@@ -1,16 +1,30 @@
-import config from '../mongo_config';
-
 import mongoose, { Mongoose } from 'mongoose';
+import { IStorage } from './Adapter/storageAdapter';
+import EnvironmentVariables from './EnviromentVariables'
 
-const dbConfig = config
+export default class dataBase implements IStorage { 
+  
+  dbConfig = EnvironmentVariables.mongoDBURL;
 
-export const connect = async(): Promise<Mongoose> => 
-await mongoose.connect(dbConfig.mongoUrl, {
-  useCreateIndex: true,
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
+  connect = async(): Promise<Mongoose> => {
+    return await mongoose.connect(this.dbConfig, {
+      useCreateIndex: true,
+      useNewUrlParser: true,
+      useUnifiedTopology: true
+  })
+    
+  };
+  close = ():Promise<void> => mongoose.connection.close()
 
-export const close = (): Promise<void> => mongoose.connection.close()
+  listAll = (): Promise<> => {
+    
+    const db = this.connect();
+    
+    
+  }
 
+  save = (Data): void => {
+
+  }
+}
 

@@ -1,22 +1,28 @@
-import express from 'express';
-import { UserRouter, P2PRouter, accountRouter } from './Controllers/importer';
+import './Utils/module-alias';
+import express, { Application } from 'express';
+import { UserRouter, P2PRouter, AccountRouter } from './Routes/'
 
 export default class Server {
   
-  app = express();
+  private app = express();
 
   middleware = (app = this.app):void => { 
 
     app.use(express.json());
     app.use(UserRouter);
-    app.use(accountRouter);
+    app.use(AccountRouter);
     app.use(P2PRouter);
 
   }
 
-  port = process.env.PORT || 3000;
+  private port = 3000;
 
-  runServer = (app = this.app, port = this.port):void => {
-    app.listen(port, () => console.log(`Listening to port ${port}`));
+  getApp(): Application {
+    return this.app;
+  }
+
+  setupServer = (port = this.port, app = this.app):void => {
+    this.middleware(app);
+    app.listen(port);
   }
 }

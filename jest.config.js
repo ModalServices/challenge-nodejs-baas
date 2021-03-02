@@ -14,6 +14,7 @@ module.exports = {
   moduleNameMapper: {
     '@src/(.*)': '<rootDir>/src/$1' ,
     '@test/(.*)': '<rootDir>/test/$1',
-    '@controllers(.*)': '<rootDir>/src/Controllers/$1'
+    '@Controllers(.*)': '<rootDir>/src/Controllers/$1',
+    '@Entities(.*)': '<rootDir>/src/Entities/$1'
   },  
 };
