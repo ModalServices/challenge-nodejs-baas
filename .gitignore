@@ -3,6 +3,5 @@ rotas.txt
 requisitos.md
 firstTest.spec.ts
 dist
-mongo_config.js
-yarn.error.log
+yarn-error.log
 .env
