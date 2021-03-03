@@ -2,7 +2,7 @@ import '../../../../Utils/module-alias';
 import { Document } from 'mongoose';
 
 
-export interface IUserDocument extends Document {
+export interface IDocument extends Document {
   
-  IUserDocument: any;
+  IDocument: any;
 }
