@@ -1,30 +1,20 @@
-import mongoose, { Mongoose } from 'mongoose';
-import { IStorage } from './Adapter/storageAdapter';
-import EnvironmentVariables from './EnviromentVariables'
+import mongoose from 'mongoose';
 
-export default class dataBase implements IStorage { 
+export default class dataBase{ 
   
-  dbConfig = EnvironmentVariables.mongoDBURL;
+  dbConfig = process.env.MONGO_URL || 'mongodb://localhost:27017';
+  dbName = process.env.DB_NAME || 'API';
 
-  connect = async(): Promise<Mongoose> => {
-    return await mongoose.connect(this.dbConfig, {
+  connect = async(): Promise<void> => {
+      await mongoose.connect(this.dbConfig, {
+      dbName:this.dbName,
       useCreateIndex: true,
       useNewUrlParser: true,
       useUnifiedTopology: true
-  })
-    
+  }).then(()=> console.log(`connection successfully\nLocation: ${this.dbConfig},\nDatabase: ${this.dbName}`))
+
   };
   close = ():Promise<void> => mongoose.connection.close()
 
-  listAll = (): Promise<> => {
-    
-    const db = this.connect();
-    
-    
-  }
-
-  save = (Data): void => {
-
-  }
 }
 
