@@ -10,7 +10,7 @@ moduleAlias.addAliases({
     '@Controllers': path.join(files,'src','Controllers'),
     '@Entities': path.join(files,'src','Entities'),
     '@Utils': path.join(files,'src','Utils'),
-    '@Usecases': path.join(files,'src','Usecases'),
+    '@Usecases': path.join(files,'src','UseCases'),
   });
 
  

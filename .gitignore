@@ -5,3 +5,4 @@ firstTest.spec.ts
 dist
 yarn-error.log
 .env
+yarn.lock

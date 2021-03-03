@@ -8,12 +8,16 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.10",
     "@types/express": "^4.17.11",
     "@types/jest": "^26.0.20",
     "@types/jsonwebtoken": "^8.5.0",
     "@types/module-alias": "^2.0.0",
     "@types/mongoose": "^5.10.3",
+    "@types/multer": "^1.4.5",
     "@types/supertest": "^2.0.10",
+    "@types/swagger-ui-express": "^4.1.2",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
     "@typescript-eslint/parser": "^4.15.2",
     "eslint": "^7.20.0",
@@ -27,7 +31,7 @@
   },
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "start": "yarn build  && node dist/src/index.js",
+    "start": "yarn build  && node  --trace-warnings dist/src/index.js",
     "lint": "eslint ./src ./ test --ext .ts",
     "lint:fix": "eslint ./src ./ test --ext .ts --fix",
     "build": "tsc",
@@ -35,11 +39,16 @@
     "test:functional": "jest --projects Test/Functional --runInBand"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-openapi-validator": "^4.12.1",
     "jsonwebtoken": "^8.5.1",
     "module-alias": "^2.2.2",
-    "mongoose": "^5.11.18",
+    "mongoose": "5.11.15",
+    "multer": "^1.4.2",
+    "swagger-ui-express": "^4.1.6",
     "ts-node": "^9.1.1"
   }
 }
