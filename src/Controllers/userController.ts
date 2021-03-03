@@ -28,7 +28,7 @@ export class documentController {
 
   async saveDocument(request: Request, response: Response): Promise<void> {
     
-    const documentData = request.file.filename;
+    const documentData:any = request.file.filename;
 
     await document.save(documentData);
 
