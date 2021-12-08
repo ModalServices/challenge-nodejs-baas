@@ -94,7 +94,8 @@ Para ajudar você criamos essa sessão bônus, onde tem links para você que que
 
 - Faça um fork deste projeto em sua conta no [Github](https://github.com/join) (crie um repositório privado). 
 - Em seguida, desenvolva o projeto. 
-- Por fim, adicione como membros do repositório [@vcteduardo](https://github.com/vcteduardo) & [@luoldrigues](https://github.com/luoldrigues).
+- Adicione como membro do repositório o seguinte usuário do GitHub [@vagas-liveonsolutions](https://github.com/vagas-liveonsolutions);
+- Por fim, envie um email informando que concluiu o desafio p/ [vagas@liveonsolutions.com](mailto:vagas@liveonsolutions.com). (coloque no assunto o nome do desafio)
 
 <br> 
 
@@ -102,7 +103,7 @@ Para ajudar você criamos essa sessão bônus, onde tem links para você que que
 
 <br>
 
-https://www.liveonbaas.com/
+https://www.liveonsolutions.com/
 
 <br>
 
