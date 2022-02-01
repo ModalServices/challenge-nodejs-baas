@@ -94,7 +94,7 @@ Para ajudar você criamos essa sessão bônus, onde tem links para você que que
 
 - Faça um fork deste projeto em sua conta no [Github](https://github.com/join) (crie um repositório privado). 
 - Em seguida, desenvolva o projeto. 
-- Adicione como membro do repositório o seguinte usuário do GitHub [@vagas-liveonsolutions](https://github.com/vagas-liveonsolutions);
+- Adicione como membro do repositório o seguinte usuário do GitHub [@vagas-modalservices](https://github.com/vagas-modalservices);
 - Por fim, envie um email informando que concluiu o desafio p/ [vagas@liveonsolutions.com](mailto:vagas@liveonsolutions.com). (coloque no assunto o nome do desafio)
 
 <br> 
@@ -103,7 +103,7 @@ Para ajudar você criamos essa sessão bônus, onde tem links para você que que
 
 <br>
 
-https://www.liveonsolutions.com/
+https://modal.services/
 
 <br>
 
