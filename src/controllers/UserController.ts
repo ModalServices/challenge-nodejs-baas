@@ -7,8 +7,9 @@ class UserController {
     return res.json(users)
   }
 
-  public teste (): string {
-    return 'Teste'
+  public async getlUserId (req: Request, res: Response): Promise<Response> {
+    const user = await User.findById(req.params.id)
+    return res.json(user)
   }
 }
 
