@@ -1,5 +1,6 @@
 import { Request, Response } from 'express'
 import Account from '../models/Account'
+import User from '../models/User'
 
 class AccountController {
   public async addAccount (req: Request, res: Response): Promise<void> {
@@ -16,6 +17,11 @@ class AccountController {
   public async getAllAccounts (req: Request, res: Response): Promise<Response> {
     const accounts = await Account.find()
     return res.json(accounts)
+  }
+
+  public async getlAccountId (req: Request, res: Response): Promise<Response> {
+    const account = await Account.findById(req.params.id).populate({ path: 'user', model: User })
+    return res.json(account)
   }
 }
 

@@ -1,7 +1,7 @@
-import { Schema, model, Document } from 'mongoose'
+import { Schema, model, Document, Types } from 'mongoose'
 
 interface AccountInterface extends Document {
-  _id: string,
+  _id: Types.ObjectId,
   number: number,
   balance: number,
   createdAt: Date,
@@ -10,7 +10,7 @@ interface AccountInterface extends Document {
 
 const AccountSchema = new Schema({
   user: {
-    type: Schema.Types.ObjectId,
+    type: Types.ObjectId,
     ref: 'users',
     required: true,
     unique: true
