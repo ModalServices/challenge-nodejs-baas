@@ -23,6 +23,11 @@ class AccountController {
     const account = await Account.findById(req.params.id).populate({ path: 'user', model: User })
     return res.json(account)
   }
+
+  public async getlBalanceId (req: Request, res: Response): Promise<Response> {
+    const account = await Account.findById(req.params.id)
+    return res.json({ value: account.balance })
+  }
 }
 
 export default new AccountController()
