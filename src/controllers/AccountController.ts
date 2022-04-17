@@ -12,6 +12,11 @@ class AccountController {
       }
     })
   }
+
+  public async getAllAccounts (req: Request, res: Response): Promise<Response> {
+    const accounts = await Account.find()
+    return res.json(accounts)
+  }
 }
 
 export default new AccountController()

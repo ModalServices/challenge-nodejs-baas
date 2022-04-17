@@ -3,6 +3,7 @@ import AccountController from '../controllers/AccountController'
 
 const routes = Router()
 
-routes.post('/account', AccountController.addAccount)
+routes.get('/accounts', AccountController.getAllAccounts)
+routes.post('/accounts', AccountController.addAccount)
 
 export default routes
