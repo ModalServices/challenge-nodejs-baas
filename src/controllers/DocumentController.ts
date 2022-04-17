@@ -3,7 +3,6 @@ import Document from '../models/Document'
 
 class DocumentController {
   public async addDocument (req: Request, res: Response): Promise<Response> {
-    console.log(req)
     if (req.file) {
       const addDocument = new Document({
         user: req.body.user,
