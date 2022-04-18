@@ -2,6 +2,7 @@ import { Schema, model, Document, Types } from 'mongoose'
 
 interface AccountInterface extends Document {
   _id: Types.ObjectId,
+  user: Types.ObjectId,
   number: number,
   balance: number,
   createdAt: Date,

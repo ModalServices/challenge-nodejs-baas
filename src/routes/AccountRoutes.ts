@@ -8,5 +8,6 @@ routes.get('/accounts', authMiddleware, AccountController.getAllAccounts)
 routes.get('/accounts/:id', authMiddleware, AccountController.getlAccountId)
 routes.get('/accounts/balance/:id', authMiddleware, AccountController.getlBalanceId)
 routes.post('/accounts', authMiddleware, AccountController.addAccount)
+routes.post('/accounts/transfer', authMiddleware, AccountController.bankTransfer)
 
 export default routes
