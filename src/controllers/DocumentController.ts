@@ -20,6 +20,11 @@ class DocumentController {
       })
     }
   }
+
+  public async getListDocumentsUser (req: Request, res: Response): Promise<Response> {
+    const listDocuments = await Document.find({ user: req.params.id })
+    return res.json(listDocuments)
+  }
 }
 
 export default new DocumentController()

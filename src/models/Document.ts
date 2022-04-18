@@ -10,8 +10,7 @@ const DocumentSchema = new Schema({
   user: {
     type: Types.ObjectId,
     ref: 'users',
-    required: true,
-    unique: false
+    required: true
   },
   file: {
     type: String,
