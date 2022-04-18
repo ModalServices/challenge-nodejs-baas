@@ -4,7 +4,7 @@ interface UserInterface extends Document {
   _id: Types.ObjectId,
   name: string,
   email: string,
-  passoword: string,
+  password: string,
   createdAt: Date,
   updatedAt: Date
 }
