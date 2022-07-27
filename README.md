@@ -2,19 +2,19 @@
 
 Desafio em NodeJs sobre Bank as a Service
 
-_É de suma importancia que você leia até o final antes de começar a fazer o desafio_ 
+_É de suma importância que você leia até o final antes de começar a fazer o desafio_ 
 
 <br>
 
 ## <a target='_blank'><img align="left" width=40px height=40px src='https://user-images.githubusercontent.com/54849358/79353989-2f6c7f80-7f12-11ea-8f2a-39aaf259ad81.png' /></a> Bem-Vindo pequeno Padawan ao nosso desafio de NodeJs
 
- Aqui seus conhecimentos serão testados! Sua capacidade de lidar com problemas será testada! Sua força Jedi será testada! Então preparece, e se caso não estiver pronto... Bom, volte em outro momento, estaremos aguardando sua chegada.
+ Aqui seus conhecimentos serão testados! Sua capacidade de lidar com problemas será testada! Sua força Jedi será testada! Então prepare-se, e se caso não estiver pronto... Bom, volte em outro momento, estaremos aguardando sua chegada.
  
  <br>
  
  ## <a target='_blank'><img align="left" width=40px height=40px src='https://user-images.githubusercontent.com/54849358/79355150-afdfb000-7f13-11ea-9626-dbc376e40f8f.png' /></a> Não nos conhece?
 
- Bom, somos Devs, como você, que passaram por esse processo, e iram passar por muitas mais coisas daqui para frente, então venha com a resistencia contra o lado sombrio, você terá varios mestres em sua jornada, e talvez você olhe para trás e veja o quão tranquilo foi essa batalha.
+ Bom, somos Devs, como você, que passaram por esse processo, e passaremos por muitas mais coisas daqui para frente, então venha com a resistência contra o lado sombrio, você terá vários mestres em sua jornada, e talvez você olhe para trás e veja o quão tranquilo foi essa batalha.
  
   Porém, acho que já está bom de explicações, eu sei que para você estar aqui ainda, você está preparado! Então vamos dar um ponta-pé nessa jornada!
   
@@ -29,7 +29,7 @@ _É de suma importancia que você leia até o final antes de começar a fazer o 
 
 ### Regras de Modelagem do Banco
 
-- Deve conter no minimo 3 models;
+- Deve conter no mínimo 3 models;
 
 ### Regras do BaaS
 
